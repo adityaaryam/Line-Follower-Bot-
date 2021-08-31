@@ -68,7 +68,7 @@ while True:
     cv.line(imgcontour, (0,190), (640,190), (0, 255, 0), thickness=5)
     cv.line(imgcontour, (0,290), (640,290), (0, 255, 0), thickness=5)       # Two Lines for Visual Reference   
     cv.imshow("Path",imgcontour)
-    if cv.waitKey(1) & 0xFF == ord('q'):
+    if cv.waitKey(1) & 0xFF == ord('q'):                                    # use 'q' button to quit
         break
 
 vid.release()
